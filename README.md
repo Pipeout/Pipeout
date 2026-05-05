@@ -41,7 +41,7 @@ This is the central control point of the pipeline execution.
 
 ---
 
-### 2. model
+### 2. [model](https://github.com/Pipeout/model)
 
 This repository contains the core machine learning logic.
 
@@ -56,7 +56,7 @@ Experiments are typically conducted here before being integrated into the produc
 
 ---
 
-### 3. mlflow
+### 3. [mlflow](https://github.com/Pipeout/mlflow)
 
 This repository is responsible for experiment tracking and model lifecycle management.
 
@@ -71,7 +71,7 @@ It acts as the system of record for all model-related operations.
 
 ---
 
-### 4. IaC (Infrastructure as Code)
+### 4. [IaC (Infrastructure as Code)]((https://github.com/Pipeout/IaC]
 
 This repository defines the infrastructure required to run the system.
 
