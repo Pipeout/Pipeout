@@ -71,7 +71,7 @@ It acts as the system of record for all model-related operations.
 
 ---
 
-### 4. [IaC (Infrastructure as Code)]((https://github.com/Pipeout/IaC]
+### 4. [IaC (Infrastructure as Code)](https://github.com/Pipeout/IaC)
 
 This repository defines the infrastructure required to run the system.
 
