@@ -26,7 +26,7 @@ Each of these stages is implemented in a dedicated repository.
 
 ## Repositories
 
-### 1. airflow
+### 1. [airflow](https://github.com/Pipeout/airflow)
 
 This repository contains the orchestration layer of the system.
 
