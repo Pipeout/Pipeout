@@ -47,8 +47,6 @@ This repository contains the core machine learning logic.
 
 It includes:
 
-* Data preprocessing routines
-* Feature engineering steps
 * Model training scripts
 * Evaluation metrics and validation procedures
 
@@ -56,7 +54,21 @@ Experiments are typically conducted here before being integrated into the produc
 
 ---
 
-### 3. [mlflow](https://github.com/Pipeout/mlflow)
+
+### 3. [feature engineering](https://github.com/Pipeout/featureEngineering)
+
+This repository is responsible for generating the features and auditing for their correctness.
+
+It provides:
+
+* Data wrangling routines
+* Feature generation script
+* Audit of generated features
+
+---
+
+
+### 4. [mlflow](https://github.com/Pipeout/mlflow)
 
 This repository is responsible for experiment tracking and model lifecycle management.
 
@@ -71,7 +83,7 @@ It acts as the system of record for all model-related operations.
 
 ---
 
-### 4. [IaC (Infrastructure as Code)](https://github.com/Pipeout/IaC)
+### 5. [IaC (Infrastructure as Code)](https://github.com/Pipeout/IaC)
 
 This repository defines the infrastructure required to run the system.
 
