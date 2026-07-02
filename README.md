@@ -41,7 +41,30 @@ This is the central control point of the pipeline execution.
 
 ---
 
-### 2. [model](https://github.com/Pipeout/model)
+### 2. [preprocessing](https://github.com/Pipeout/preprocessing)
+
+This repository is responsible for preprocessing the raw datasets and guaranteeing their consistency 
+
+It provides:
+
+* Data wrangling routines
+* Checks of columns presence
+* Checks of dataset consistency 
+
+---
+
+### 3. [feature engineering](https://github.com/Pipeout/featureEngineering)
+
+This repository is responsible for generating the features and auditing for their correctness.
+
+It provides:
+
+* Feature generation script
+* Audit of generated features
+
+---
+
+### 4. [model](https://github.com/Pipeout/model)
 
 This repository contains the core machine learning logic.
 
@@ -54,21 +77,7 @@ Experiments are typically conducted here before being integrated into the produc
 
 ---
 
-
-### 3. [feature engineering](https://github.com/Pipeout/featureEngineering)
-
-This repository is responsible for generating the features and auditing for their correctness.
-
-It provides:
-
-* Data wrangling routines
-* Feature generation script
-* Audit of generated features
-
----
-
-
-### 4. [mlflow](https://github.com/Pipeout/mlflow)
+### 5. [mlflow](https://github.com/Pipeout/mlflow)
 
 This repository is responsible for experiment tracking and model lifecycle management.
 
@@ -83,7 +92,7 @@ It acts as the system of record for all model-related operations.
 
 ---
 
-### 5. [IaC (Infrastructure as Code)](https://github.com/Pipeout/IaC)
+### 6. [IaC (Infrastructure as Code)](https://github.com/Pipeout/IaC)
 
 This repository defines the infrastructure required to run the system.
 
